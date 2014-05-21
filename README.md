@@ -2,7 +2,7 @@ This repository is a collection of Breakout clones written in four of today's po
 
 In order to accurately compare and contrast the game engines, I wrote a Breakout clone from scratch using each game engine. I then re-wrote the clones using [RapidGame](http://wizardfu.com/rapidgame) templates in order to estimate how much development time RapidGame can save.
 
-You will find the original Breakout clones in the `Slow` directory. The clones built with RapidGame are in the `Rapid` directory.
+You will find the original Breakout clones in the `Control` directory. The clones built with RapidGame are in the `Rapid` directory.
 
 
 Results
@@ -22,4 +22,4 @@ In order to run the Breakout clones:
 2. Install [RapidGame](http://wizardfu.com/rapidgame): `sudo npm install rapidgame -g`
 3. Initialize the Rapid/Cocos2d project: `cd BreakoutClones/Rapid/Cocos2d && rapidgame init .`
 4. Run the prebuild: `rapidgame prebuild`
-5. Initialize the Slow/Cocos2d project: `cd BreakoutClones/Slow/Cocos2d && rm cocos2d-js && ln -s ~/path/to/cocos2d-js-v3.0-alpha2 cocos2d-js`
+5. Initialize the Control/Cocos2d project: `cd BreakoutClones/Control/Cocos2d && rm cocos2d-js && ln -s ~/path/to/cocos2d-js-v3.0-alpha2 cocos2d-js`
