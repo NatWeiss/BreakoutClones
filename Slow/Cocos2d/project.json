@@ -1,0 +1,18 @@
+{
+    "project_type": "javascript",
+    "debugMode": 1,
+    "showFPS": false,
+    "frameRate": 60,
+    "id": "gameCanvas",
+    "renderMode": 0,
+
+    "modules": [
+		"cocos2d",
+		"chipmunk"
+	],
+
+    "jsList": [
+		"js/MenuScene.js",
+		"js/GameScene.js"
+    ]
+}
