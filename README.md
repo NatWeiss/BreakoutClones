@@ -19,7 +19,7 @@ Setup
 In order to run the Breakout clones:
 
 1. Clone this repo
-2. Install [RapidGame](http://wizardfu.com/rapidgame).
+2. Install [RapidGame](http://wizardfu.com/rapidgame): `sudo npm install rapidgame -g`
 3. Initialize the Rapid/Cocos2d project: `cd BreakoutClones/Rapid/Cocos2d && rapidgame init .`
 4. Run the prebuild: `rapidgame prebuild`
 5. Initialize the Slow/Cocos2d project: `cd BreakoutClones/Slow/Cocos2d && rm cocos2d-js && ln -s ~/path/to/cocos2d-js-v3.0-alpha2 cocos2d-js`
